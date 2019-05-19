@@ -15,10 +15,10 @@
   "static/media/flickr_api.jpg": "/static/media/flickr_api.920e19e9.jpg",
   "static/media/jamnjam.png": "/static/media/jamnjam.278e4901.png",
   "static/media/PROJECT_PLAGIRASIM.png": "/static/media/PROJECT_PLAGIRASIM.a9d238a2.png",
-  "static/media/font-awesome.css": "/static/media/fontawesome-webfont.912ec66d.svg",
-  "static/css/main.6661e45c.chunk.css.map": "/static/css/main.6661e45c.chunk.css.map",
+  "static/media/font-awesome.css": "/static/media/fontawesome-webfont.af7ae505.woff2",
   "static/css/1.f8b453c7.chunk.css.map": "/static/css/1.f8b453c7.chunk.css.map",
+  "static/css/main.6661e45c.chunk.css.map": "/static/css/main.6661e45c.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.801b2846ccce0aa974f2dc6249367dae.js": "/precache-manifest.801b2846ccce0aa974f2dc6249367dae.js",
+  "precache-manifest.6bbc295bed4731d685fa62e87bc7a90c.js": "/precache-manifest.6bbc295bed4731d685fa62e87bc7a90c.js",
   "service-worker.js": "/service-worker.js"
 }
