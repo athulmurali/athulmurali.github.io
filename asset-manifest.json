@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.6661e45c.chunk.css",
-  "main.js": "/static/js/main.6977eebd.chunk.js",
-  "main.js.map": "/static/js/main.6977eebd.chunk.js.map",
+  "main.js": "/static/js/main.dbb38648.chunk.js",
+  "main.js.map": "/static/js/main.dbb38648.chunk.js.map",
   "static/css/1.f8b453c7.chunk.css": "/static/css/1.f8b453c7.chunk.css",
   "static/js/1.a47eeab4.chunk.js": "/static/js/1.a47eeab4.chunk.js",
   "static/js/1.a47eeab4.chunk.js.map": "/static/js/1.a47eeab4.chunk.js.map",
@@ -15,10 +15,10 @@
   "static/media/flickr_api.jpg": "/static/media/flickr_api.920e19e9.jpg",
   "static/media/jamnjam.png": "/static/media/jamnjam.278e4901.png",
   "static/media/PROJECT_PLAGIRASIM.png": "/static/media/PROJECT_PLAGIRASIM.a9d238a2.png",
-  "static/media/font-awesome.css": "/static/media/fontawesome-webfont.b06871f2.ttf",
-  "static/css/1.f8b453c7.chunk.css.map": "/static/css/1.f8b453c7.chunk.css.map",
+  "static/media/font-awesome.css": "/static/media/fontawesome-webfont.912ec66d.svg",
   "static/css/main.6661e45c.chunk.css.map": "/static/css/main.6661e45c.chunk.css.map",
+  "static/css/1.f8b453c7.chunk.css.map": "/static/css/1.f8b453c7.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.ec1572a375dfff412b1e135a14b177cd.js": "/precache-manifest.ec1572a375dfff412b1e135a14b177cd.js",
+  "precache-manifest.01dc4dc1b86d9d1cc7964ef4d5a740b2.js": "/precache-manifest.01dc4dc1b86d9d1cc7964ef4d5a740b2.js",
   "service-worker.js": "/service-worker.js"
 }
