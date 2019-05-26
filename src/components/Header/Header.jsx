@@ -1,7 +1,7 @@
 import React from 'react'
 import DP from '../../assets/img/athul_dp.jpg'
 import '../../../node_modules/font-awesome/css/font-awesome.css'
-import {SOCIAL_BLOG, SOCIAL_EMAIL, SOCIAL_GITHUB, SOCIAL_LINKED_IN, SOCIAL_TWITTER} from "../../data";
+import {SOCIAL_BLOG, SOCIAL_EMAIL, SOCIAL_GITHUB, SOCIAL_LINKED_IN, SOCIAL_TWITTER, TITLE} from "../../data";
 import Education from "./Education";
 import Languages from "./Languages";
 import TechStack from "./TechStack";
@@ -19,28 +19,17 @@ const Header = () => <div className="container col-sm-2"
         </div>
     </div>
     <div className="row">
-        <img alt="Athul's profile" className="profile-picture-left img-circle profile-pic" data-no-retina="true"
-             src={DP}/>
+        <img alt="profile" className="profile-picture-left img-circle profile-pic" data-no-retina="true" src={DP}/>
     </div>
     <div className="row">
         <div className="col-md-12 left-header">
-            Software Developer
+            {TITLE}
         </div>
     </div>
-
     <SocialLinks/>
-
-    <div className="row">
-        <div className="col-md-2 col-xs-2 col-sm-2 col-lg-2"></div>
-        <div className="col-md-8 col-xs-8 col-sm-8 col-lg-8">
-            <hr/>
-        </div>
-        <div className="col-md-2 col-xs-2 col-sm-2 col-lg-2"></div>
-    </div>
-    <div className="row">
-        <div className="col-md-12 left-header">
-            <a className="left-header" href={SOCIAL_BLOG}>Blog</a>
-        </div>
+    <hr/>
+    <div className="row text-center">
+        <a className="left-header col" href={SOCIAL_BLOG}>Blog</a>
     </div>
     <hr/>
     <TechStack/>
