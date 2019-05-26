@@ -23,7 +23,7 @@ export const experiencesData = [
         company: 'Retail Business Services',
         year: 'Jan `19- May`19',
         img: RBS_LOGO,
-        details: "Front End Engineer for R & D "
+        details: "Front End Engineer for  Innovations "
 
     },
     {
