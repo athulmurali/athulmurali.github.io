@@ -1,7 +1,10 @@
 import React from 'react'
 import  DP from '../../assets/img/athul_dp.jpg'
 import  '../../../node_modules/font-awesome/css/font-awesome.css'
-import {LANGUAGES, SOCIAL_EMAIL, SOCIAL_GITHUB, SOCIAL_LINKED_IN, SOCIAL_TWITTER, TECH_STACK} from "../../data";
+import {
+    LANGUAGES, SOCIAL_BLOG, SOCIAL_EMAIL, SOCIAL_GITHUB, SOCIAL_LINKED_IN, SOCIAL_TWITTER,
+    TECH_STACK
+} from "../../data";
 
 
 const Header = ()=> <div className="container col-sm-2"
@@ -24,7 +27,7 @@ const Header = ()=> <div className="container col-sm-2"
         </div>
     </div>
 
-    <Social_Links/>
+    <SocialLinks/>
 
     <div className="row">
         <div className="col-md-2 col-xs-2 col-sm-2 col-lg-2"></div>
@@ -35,7 +38,7 @@ const Header = ()=> <div className="container col-sm-2"
     </div>
     <div className="row">
         <div className="col-md-12 left-header">
-            <a className="left-header" href="https://medium.com/@athulmurali">Blog</a>
+            <a className="left-header" href={SOCIAL_BLOG}>Blog</a>
         </div>
     </div>
     <hr/>
@@ -82,7 +85,7 @@ const Header = ()=> <div className="container col-sm-2"
 
 
 
-const Social_Links = ()=> <div className="social-links">
+const SocialLinks = ()=> <div className="social-links">
     <a href={SOCIAL_LINKED_IN} rel="nofollow noopener noreferrer" target="_blank">
         <i className="fa fa"></i>
     </a>&nbsp; &nbsp;&nbsp;

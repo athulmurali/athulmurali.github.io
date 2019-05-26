@@ -108,3 +108,5 @@ export const SOCIAL_LINKED_IN ="https://www.linkedin.com/in/athulmuralidharan/"
 export const SOCIAL_GITHUB ="https://github.com/athulmurali"
 export const SOCIAL_TWITTER ="https://twitter.com/@athul_karthik"
 export const SOCIAL_EMAIL = "muralidharan.a@husky.neu.edu"
+export const SOCIAL_BLOG="https://medium.com/@athulmurali"
+
