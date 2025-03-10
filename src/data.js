@@ -99,7 +99,7 @@ export const PROJECTS_DATA=[
 
 ];
 
-export const TECH_STACK = ["NodeJs","Flask", "SQL MongoDB","React & Redux", "Angular"];
+export const TECH_STACK = ["NodeJs","Flask", "SQL & MongoDB","React & Redux", "Angular"];
 export const LANGUAGES = ["JavaScript ","Python", "Java"];
 
 
