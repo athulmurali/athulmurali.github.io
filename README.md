@@ -66,9 +66,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-### `npm run deploy` to update the user page in gitHub pages to deploy and host
-
-
-
-[How to deploy](https://dev.to/javascripterika/deploy-a-react-app-as-a-github-user-page-with-yarn-3fka)
