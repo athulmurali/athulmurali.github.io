@@ -1,27 +1,42 @@
 name: Deploy to GitHub Pages
 
+# Builds develop and publishes build/ to the gh-pages branch,
+# which GitHub Pages serves at www.athulmurali.com (see public/CNAME).
 on:
   push:
     branches:
-      - master # Change this to your desired branch name
+      - develop
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy-pages
+  cancel-in-progress: true
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: v20.19.0  # Specify the desired Node.js version    
-    - name: Install dependencies
-      run: yarn install --ignore-platform
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.19.0
+          cache: yarn
 
-    - name: Run pre deploy
-      run: yarn predeploy
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile --ignore-platform
 
-    - name: Deploy with gh-pages
-      run: npx gh-pages -d build -t ${{ secrets.GH_TOKEN }}
+      - name: Test
+        run: yarn test
+
+      - name: Build
+        run: yarn build
+
+      - name: Deploy with gh-pages
+        run: npx gh-pages -d build -u "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"

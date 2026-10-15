@@ -1,3 +1,17 @@
+# www.athulmurali.com
+
+Source for my resume site.
+
+## Updating & deploying
+
+1. Branch off `develop` and edit content — e.g. work history lives in `src/const/experiencesData.js` (newest first, logos in `src/assets/img/`).
+2. Open a PR to `develop`; the **Yarn Build Check** workflow builds and tests it.
+3. Merge. The **Deploy to GitHub Pages** workflow builds `develop` and pushes `build/` to the `gh-pages` branch, which GitHub Pages serves at www.athulmurali.com (`public/CNAME` keeps the custom domain).
+
+Manual fallback: `yarn deploy` (or re-run the workflow from the Actions tab).
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
