@@ -38,5 +38,9 @@ jobs:
       - name: Build
         run: yarn build
 
+      # gh-pages commits with the git config identity (its -u option can't parse "[bot]" names)
       - name: Deploy with gh-pages
-        run: npx gh-pages -d build -u "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          npx gh-pages -d build
