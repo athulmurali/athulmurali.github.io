@@ -39,8 +39,12 @@ jobs:
         run: yarn build
 
       # gh-pages commits with the git config identity (its -u option can't parse "[bot]" names)
+      # and pushes from its own clone, which doesn't inherit checkout's credentials, so pass
+      # an authenticated repo URL.
       - name: Deploy with gh-pages
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          npx gh-pages -d build
+          npx gh-pages -d build -r "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
