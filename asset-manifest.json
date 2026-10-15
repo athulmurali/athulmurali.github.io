@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.aa1da783.css",
-    "main.js": "/static/js/main.aa8037ec.js",
+    "main.js": "/static/js/main.0e7c03cb.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/PROJECT_PLAGIRASIM.png": "/static/media/PROJECT_PLAGIRASIM.c86d123d7521d15ae385.png",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -17,10 +17,10 @@
     "static/media/aricentLogo.jpg": "/static/media/aricentLogo.82b5f79c364276a9edae.jpg",
     "index.html": "/index.html",
     "main.aa1da783.css.map": "/static/css/main.aa1da783.css.map",
-    "main.aa8037ec.js.map": "/static/js/main.aa8037ec.js.map"
+    "main.0e7c03cb.js.map": "/static/js/main.0e7c03cb.js.map"
   },
   "entrypoints": [
     "static/css/main.aa1da783.css",
-    "static/js/main.aa8037ec.js"
+    "static/js/main.0e7c03cb.js"
   ]
 }
