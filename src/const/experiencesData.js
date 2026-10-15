@@ -4,12 +4,20 @@ import RIGOR_LOGO from '../assets/img/rigor-logo.png'
 import ARICENT_LOGO from '../assets/img/aricentLogo.jpg'
 import BOSE_LOGO from '../assets/img/bose_logo.png'
 import OCI_LOGO from '../assets/img/oracle-logo.png'
+import BLOOMBERG_LOGO from '../assets/img/bloomberg-logo.png'
 
 export const experiencesData = [
     {
+        position: 'Senior Software Engineer',
+        company: 'Bloomberg',
+        year: 'Sep `25 - Present',
+        img: BLOOMBERG_LOGO,
+        details: "Senior Software Engineer at Bloomberg"
+    },
+    {
         position: 'Senior Software Engineer | SDE 3',
         company: 'Oracle',
-        year: 'Jan `20 - Present',
+        year: 'Jan `20 - Sep `25',
         img: OCI_LOGO,
         details: "Senior Software engineer at Oracle Cloud Infrastructure"
     },
